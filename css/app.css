@@ -1,8 +1,51 @@
-body{
-  background-color: red;
-}
+
 
 h1{
   align-content: center;
   padding-left: 10px;
+}
+
+
+.menu-list {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.menu-item {
+	display: block;
+	margin: 1em 0;
+  height: 1.5em;
+}
+
+.menu-link {
+	font-size: 0.75em;
+	font-weight: bold;
+  align-content: flex-end;
+	display: block;
+	padding: 1em;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-touch-callout: none;
+	-khtml-user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.menu-link:hover,
+.menu-link:focus {
+	outline: none;
+}
+
+#home{
+  background-color: #ffeeee;
+}
+#about{
+  background-color: #559977;
 }
