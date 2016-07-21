@@ -1,4 +1,6 @@
-
+body{
+  background-color: red;
+}
 
 h1{
   align-content: center;
@@ -18,7 +20,7 @@ h1{
 }
 
 .menu-item {
-	display: block;
+	display: inline-block;
 	margin: 1em 0;
   height: 1.5em;
 }
@@ -27,7 +29,7 @@ h1{
 	font-size: 0.75em;
 	font-weight: bold;
   align-content: flex-end;
-	display: block;
+	display: inline-block;
 	padding: 1em;
 	cursor: pointer;
 	-webkit-user-select: none;
@@ -55,7 +57,7 @@ margin-top: 1em;
 }
 #about{
   background-color: #559977;
-  background-image:url("images/dis.jpg");
+  background-image:url("..images/dis.jpg");
   background-repeat: no-repeat;
   background-size: contain;
 }
