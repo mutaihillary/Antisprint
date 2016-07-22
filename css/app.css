@@ -6,7 +6,13 @@ h1{
   align-content: center;
   padding-left: 10px;
 }
+.nav{
+  display: inline-block;
+  text-decoration: none;
+  width: 100%;
+  margin: auto;
 
+}
 
 .menu-list {
 	display: -webkit-flex;
@@ -21,7 +27,7 @@ h1{
 
 .menu-item {
 	display: inline-block;
-	margin: 1em 0;
+	margin: 0;
   height: 1.5em;
 }
 
@@ -48,6 +54,7 @@ h1{
 
 #home{
   background-color: #AA6539;
+  border: 5px dotted yellow;
 }
 .menu-text{
 font-size: 1em;
@@ -60,4 +67,11 @@ margin-top: 1em;
   background-image:url("..images/dis.jpg");
   background-repeat: no-repeat;
   background-size: contain;
+  border: 5px dotted blue;
+}
+#contact{
+  border: 5px dotted red;
+}
+#portfolio{
+  border: 5px dotted green;
 }
