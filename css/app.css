@@ -1,6 +1,4 @@
-body{
-  background-color: red;
-}
+
 
 h1{
   align-content: center;
@@ -54,7 +52,6 @@ h1{
 
 #home{
   background-color: #AA6539;
-  border: 5px dotted yellow;
 }
 .menu-text{
 font-size: 1em;
@@ -63,15 +60,70 @@ font-family:'Montserrat', sans-serif;
 margin-top: 1em;
 }
 #about{
-  background-color: #559977;
-  background-image:url("..images/dis.jpg");
+  background-color: #4AFFB1;
+  background-image:url("../images/dis.jpg");
   background-repeat: no-repeat;
   background-size: contain;
-  border: 5px dotted blue;
 }
 #contact{
-  border: 5px dotted red;
+  background-color: #E8F8FF;
 }
 #portfolio{
-  border: 5px dotted green;
+  background-color: #4DE8C3;
 }
+
+/*
+.portfolio{
+  font-size: 18px;
+  color:red;
+  overflow:hidden;
+  position: absolute;
+  top:0;
+  left:0;
+  z-index: 1;
+  text-align: center;
+}
+.portfolio:hover{
+  margin-left:2em;
+  transition: all .3s linear;
+}
+.portfolio img:hover{
+  width:400px;
+  height:276px;
+  transition: all .3s linear;
+}
+.content{
+  position: absolute;
+  top:0;
+  left:0;
+  width:400px;
+  height:276px;
+  z-index: -100;
+  background-color:grey;
+}
+ .content p{
+  padding: 1em 1em 1em 1em;
+}
+footer{
+  position: absolute;
+  top:90%;
+}
+h2:hover{
+  margin: 1em 0 1em 0;
+  padding:0 .2em 0 .2em;
+  border-left: .2em solid #111;
+  border-right: .2em solid #111;
+  border-top: .2em solid #111;
+  border-bottom: .2em solid #111;
+  transition: all .3s ease-in-out;
+}
+
+.next{
+  position: absolute;
+  top:300px;
+}
+.right{
+  position: absolute;
+  left:500px;
+}
+*/
