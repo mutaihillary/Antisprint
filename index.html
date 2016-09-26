@@ -8,10 +8,12 @@
  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
   <link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+<link rel="stylesheet" href="css/article.css">
   <link rel="stylesheet" href="css/foundation.css"> <!-- Resource style -->
   <link rel="stylesheet" href="css/foundation.min.css"><!-- foundation css -->
   <link rel="stylesheet" href="css/app.css">  <!-- foundation App css -->
   <script src="js/modernizr.js"></script> <!-- Modernizr -->
+    
 	<title>retail firm</title>
 </head>
 <body>
@@ -118,25 +120,68 @@ During this activity we collect market information on your brand as well as comp
     </div>
 <!---Portfolio------>
 <div id="portfolio">
-<div class="row">
-<div class="column row">
-  <h2>Portfolio</h2>
-            <div class="column">
-              <img class="thumbnail" src="images/amref.jpg">
-              <h5>Amrefkenya</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="images/edon.jpg">
-              <h5>Edon consultacy</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="images/gorilla.jpg">
-              <h5>Gorilla Corner</h5>
-            </div>
-            <div class="column">
-              <img class="thumbnail" src="images/hockey.jpg">
-              <h5>Hockeyquins</h5>
-            </div>
+    <div class="row column">
+      <div class="row medium-up-3 large-up-4">
+        <ul class="grid cs-style-2">
+				<li>
+					<figure>
+						<img src="images/kas1.jpg" alt="imgpr1" height="250px" width="400px">
+						<figcaption>
+							<h5>YumYum</h5>
+							<p>Chandaria food</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/kas2.jpg" alt="imgpr2" height="250px" width="400px">
+						<figcaption>
+							<h5>palm Hotels</h5>
+							<p>Sea Food Caters</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/kas3.jpg" alt="imgpr3" height="250px" width="400px">
+						<figcaption>
+							<h5>Big cloud</h5>
+							<p>clouding services</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/kas4.jpg" alt="imgpr4" height="250px" width="400px">
+						<figcaption>
+							<h5>Techno world</h5>
+							<p>Phone accesories</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/gorilla.jpg" alt="imgpr5" height="250px" width="400px">
+						<figcaption>
+							<h5>Monkeys kingdom</h5>
+							<p>Animal handling kits</p>
+						</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+						<img src="images/hockey.jpg" alt="imgpr6" height="250px" width="400px">
+						<figcaption>
+							<h5>Hockey distributors</h5>
+							<p>Playing kits</p>
+						</figcaption>
+					</figure>
+				</li>
+			</ul>
+      </div>
+    </div>
+</div>
+            <!--
             <div class="column">
               <img class="thumbnail" src="images/samosa.jpg">
               <h5>SamosaInn</h5>
@@ -152,7 +197,7 @@ During this activity we collect market information on your brand as well as comp
             <div class="column">
               <img class="thumbnail" src="images/jade.jpg">
               <h5>Jade Collections</h5>
-            </div>
+            </div>-->
           </div>
      </div>
     </div>
@@ -160,30 +205,44 @@ During this activity we collect market information on your brand as well as comp
 <!---contact us------>
 <div id="contact">
           <div class="row">
-            <div class="medium-6 columns">
               <h2>Contact Us</h2>
-              <p>Vivamus hendrerit arcu sed erat molestie vehicula. Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor. Suspendisse dictum feugiat nisl ut dapibus. Mauris iaculis porttitor.</p>
-              <ul class="menu">
+            <div class="medium-6 columns">
+                <h4>General Informations</h4>
+              <p>Because of our innovative approach to products, amenities and service, kaskazi continues to be leader in retail distributions.</p>
+                <h4>Reach us</h4>
+               <ul class="contact-info">
+                  <li class="phone">Our Phone No:<a href="tel:+254729769315">+254729769315</a></li>
+                  <li class="email">Email Adress:<a href="mailto:hillaryksure@gmail.com">hillaryksure@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="medium-6 columns">
+              <form action="MAILTO:https://formspree.io/your@email.comhillaryksure@gmail.com" method="post" name="form_validate">
+      <label>
+            NAME
+            <input type="text" name="Name" placeholder="Full Name Required" required="">
+          </label>
+            <label>
+            EMAIL ADDRESS
+            <input type="email" name="Email Address" placeholder="@example.com" required="">
+            </label>
+            <label>
+            MESSAGE
+            <textarea name="comments"></textarea>
+            </label>
+            <input type="submit" value="Send Message" id="submit" onclick="formValidation();">
+    </form>
+            </div>
+          </div>
+          </div>
+<div class="row">
+        <div class="small-12 large-12 columns">
+           <ul class="menu">
                 <li><a href="#">Twitter</a></li>
                 <li><a href="#">Facebook</a></li>
                 <li><a href="#">Instagram</a></li>
-              </ul>
-            </div>
-            <div class="medium-6 columns">
-              <label>Name
-                <input type="text" placeholder="Name">
-              </label>
-              <label>Email
-                <input type="text" placeholder="Email">
-              </label>
-              <label>
-                Message
-                <textarea placeholder="holla at a designerd"></textarea>
-              </label>
-              <input type="submit" class="button expanded" value="Submit">
-            </div>
-          </div>
-          </div>
+           </ul> 
+        </div>
+</div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>

@@ -22,7 +22,7 @@ a {
 .cd-title {
   position: relative;
   height: 140px;
-  line-height: 170px;
+  line-height: 100px;
   text-align: center;
 }
 .cd-title h1 {
