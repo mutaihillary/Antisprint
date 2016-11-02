@@ -9,9 +9,10 @@
 
 .grid li {
 	display: inline-block;
-	width: 340px;
+	width: 300px;
 	margin: 0;
-	padding: 10px;
+	padding-left:0;
+	padding-right:0;
 	text-align: left;
 	position: relative;
 }
