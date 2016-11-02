@@ -8,8 +8,6 @@ h1{
   padding-left: 10px;
 }
 .title-bar{
-	/*padding: 1.5rem;*/
-	font-size: 20px;
 	width: 100%;
 	height: 100%;
 	padding-left: 0;
@@ -55,27 +53,11 @@ a {
 #home{
   background-color: #AA6539;
 }
-.menu-text{
-font-size: 1em;
-color: #AA4C39;
-font-family:'Montserrat', sans-serif;
-}
-#about{
-  background-color: #4AFFB1;
-  background-image:url("../images/dis.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 .header1{text-align: center;}
 
 #portfolio{
   background-color: #E8F8FF;
-}/*
-#contact{
-  background-color: #4AFFB1;
 }
-/*Footer*/
-
 #footer{
 	padding-top: 10px;
 }
