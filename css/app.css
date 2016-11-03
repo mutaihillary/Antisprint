@@ -131,7 +131,6 @@ footer p {
 	}
   .cd-title {
     line-height: 150px;
-    /*background-color: red;*/
   }
   img{
     max-width: 100%;
@@ -168,7 +167,7 @@ footer p {
     line-height: 300px;
     /*background-color: blue;*/
   }
-  .cd-title h1 {
+  .cd-title h1{
     font-size: 3rem;
   }
   img{
@@ -177,7 +176,7 @@ footer p {
 	.cd-headline {
 	  font-size: 3rem;
 	  line-height: 1.2;}
-.cd-intro {
+  .cd-intro {
   width: 90%;
   max-width: 768px;
   text-align: center;
