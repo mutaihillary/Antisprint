@@ -29,6 +29,7 @@ a {
 }
 @media only screen and (min-width: 480px) {
   .cd-intro {
+    background-color: green;
     margin: 6em auto;
   }
   img{
@@ -47,7 +48,7 @@ a {
 @media only screen and (min-width: 768px) {
   .cd-title {
     line-height: 250px;
-    /*background-color: red;*/
+    background-color: red;
   }
   img{
     max-width: 100%;
@@ -58,14 +59,13 @@ a {
   .cd-headline {
     font-size: 1.4rem;
     font-weight: 300;
-    /*background-color: green;*/
   }
 }
 @media only screen and (min-width: 1170px) {
   .cd-title {
     height: 200px;
     line-height: 300px;
-    /*background-color: blue;*/
+    background-color: blue;
   }
   .cd-title h1 {
     font-size: 3rem;
