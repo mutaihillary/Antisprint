@@ -10,7 +10,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
   color: #aebcb9;
   max-width: 100%;
-  background-color: #0d0d0d;
+  background-color: #fff;
 }
 .title-bar{
 	width: 100%;
@@ -95,7 +95,7 @@ a {
 .cd-words-wrapper {
   display: inline-block;
   position: relative;
-  text-align: left;
+  text-align: center;
 }
 .cd-words-wrapper b {
   display: inline-block;
