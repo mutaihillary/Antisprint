@@ -10,8 +10,7 @@ h1{
 .title-bar{
 	width: 100%;
 	height: 100%;
-	padding-left: 0px;
-	padding-right: 0px;
+	padding: 0rem;
 	margin: 0;
 }
 .title-bar-right{
@@ -27,6 +26,7 @@ a {
   display: inline-block;
   text-decoration: none;
   width: 100%;
+	height: 100%;
   margin: 0;
 }
 
@@ -55,9 +55,11 @@ a {
   background-color: #AA6539;
 }
 .header1{text-align: center;}
-
+#about{
+  background-color: #000;
+}
 #portfolio{
-  background-color: #E8F8FF;
+  background-color: #fff;
 }
 #footer{
 	padding-top: 10px;
