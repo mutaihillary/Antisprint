@@ -85,8 +85,8 @@ footer {
 }
 
 .soc-media-ul a {
-	padding: 0.35em 0;
-	width: 1.85em;
+	padding: 0.65em 0;
+	width: 4.85em;
 	color: #fff;
 	border-radius: 50%;
 	border: 2px solid;
@@ -102,20 +102,18 @@ footer h2 {
 footer ul li {
 	list-style: none;
 	display: block;
-	padding: 5%;
 }
 
 footer ul {
-	margin-top: 10%;
+	margin-top: 5%;
 }
 
 footer i {
-	font-size: 20px;
+	font-size: 14px;
 	letter-spacing: 3%;
 	color: #fff;
 	font-weight: 900;
 }
-
 footer p {
 	color: white;
 	text-align: center;
@@ -139,7 +137,7 @@ footer p {
     max-width: 100%;
   }
 	.cd-intro {
-    margin: 2em auto;
+    margin: 0em auto;
   }
 	.is-visible b{
 		font-size: 1rem;
@@ -156,7 +154,7 @@ footer p {
     max-width: 100%;
   }
 	.cd-intro {
-    margin: 5em auto;
+    margin: 0em auto;
   }
 	.is-visible b{
 		font-size: 3rem;
@@ -183,7 +181,7 @@ footer p {
   width: 90%;
   max-width: 768px;
   text-align: center;
-	margin: 4em auto;
+	margin: 0em auto;
 }
 .is-visible b{
 	font-size: 3rem;
