@@ -127,8 +127,14 @@ footer p {
 }
 
 @media only screen and (min-width: 412px) {
+
 	.cd-words-wrapper{
-		width: 100%
+		width: 100%;
+		align-content: center;
+	}
+	.cd-words-wrapper b{
+		width: 100%;
+		align-content: center;
 	}
   .cd-title {
     line-height: 150px;
@@ -139,20 +145,39 @@ footer p {
 	.cd-intro {
     margin: 0em auto;
   }
+    .is-visible{
+     align-content: center;
+     max-width: 100%;
+    }
 	.is-visible b{
 		font-size: 1rem;
-		text-align: center;
+		align-content: center;
 		height: 60%
+	}
+	.callout secondary{
+		width: 100%
+		align-content: center;
+	}
+	.callout secondary p{
+		width: 100%
+		align-content: center;
 	}
 }
 @media only screen and (min-width: 768px) {
   .cd-title {
     line-height: 250px;
-    /*background-color: red;*/
   }
   img{
     max-width: 100%;
   }
+  .cd-words-wrapper{
+		width: 100%;
+		align-content: center;
+	}
+	.cd-words-wrapper b{
+		width: 100%;
+		align-content: center;
+	}
 	.cd-intro {
     margin: 0em auto;
   }
@@ -166,7 +191,6 @@ footer p {
   .cd-title {
     height: 200px;
     line-height: 300px;
-    /*background-color: blue;*/
   }
   .cd-title h1{
     font-size: 3rem;
@@ -177,6 +201,7 @@ footer p {
 	.cd-headline {
 	  font-size: 3rem;
 	  line-height: 1.2;}
+
   .cd-intro {
   width: 90%;
   max-width: 768px;
@@ -189,3 +214,4 @@ footer p {
 	height: 100%
 }
 }
+
